@@ -38,3 +38,27 @@ elif ('python' == 'javaScript'):
     print("elif ")
 else:
     print("else")
+
+
+# assignment no. 1
+
+import sys 
+
+pythonVarsion = "Python version: " + sys.version  
+print (pythonVarsion)
+
+print ("Version information: ")
+print (sys.version_info)
+
+
+import datetime 
+
+now = datetime.datetime.now()
+print(now)
+
+
+import math
+
+r = float(input ("Input the radius of the circle : "))
+print ("The area of the circle with radius " + str(r) + " is: " + str(math.pi * r**2))
+
