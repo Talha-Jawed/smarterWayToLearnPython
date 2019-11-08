@@ -1,3 +1,10 @@
+# chapter 1-11 and assignment no. 1 
+
+import sys
+import math
+import datetime
+
+# print
 msg = "My Name is Talha"
 print(msg)
 
@@ -40,9 +47,8 @@ else:
     print("else")
 
 
-# assignment no. 1
 
-import sys 
+# assignment no. 1
 
 pythonVarsion = "Python version: " + sys.version  
 print (pythonVarsion)
@@ -51,14 +57,9 @@ print ("Version information: ")
 print (sys.version_info)
 
 
-import datetime 
-
 now = datetime.datetime.now()
 print(now)
 
 
-import math
-
 r = float(input ("Input the radius of the circle : "))
 print ("The area of the circle with radius " + str(r) + " is: " + str(math.pi * r**2))
-
