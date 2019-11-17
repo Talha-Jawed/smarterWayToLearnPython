@@ -1,4 +1,4 @@
-# Chapter 12-19
+# Chapter 12-19 & assignment 2
 
 #  And and or operator
 if 4 > 2 and 5 > 4:
@@ -60,3 +60,24 @@ del num[0]
 print(num)
 num.remove(12) # delete using value
 print(num.pop()) # print last value
+
+
+
+# Assignment no: 2
+
+# calculator
+val1 = int(input('Enter First Value: '))
+operator = (input('Enter Operator: '))
+val2 = int(input('Enter Second Value: '))
+
+if operator == '+':
+    print(val1 + val2 ,'answer')
+elif operator == '-':
+    print(val1 - val2 ,'answer')
+elif operator == '*':
+    print(val1 * val2 ,'answer')
+elif operator == '/':
+    print(val1 / val2 ,'answer')
+else:
+    print('Please Enter Valid Operator')
+
