@@ -63,9 +63,38 @@ print(num.pop()) # print last value
 
 
 
-# Assignment no: 2
+# Assignment no: 2 & 3
+
+
+# Marksheet
+
+print("Marks of Five Subjects")
+sub1=int(input("Enter marks of English: "))
+sub2=int(input("Enter marks of Math: "))
+sub3=int(input("Enter marks of Science: "))
+sub4=int(input("Enter marks of Urdu: "))
+sub5=int(input("Enter marks of Islamiat: "))
+tmarks=sub1 + sub2 + sub3 + sub4 + sub4
+print("Total marks" , tmarks , 'out of 500')
+percentage= tmarks / 500 * 100
+print(percentage , '%')
+if(percentage >= 90 and percentage <= 100):
+    print("Grade: A+")
+elif(percentage >= 80 and percentage < 90):
+    print("Grade: A")
+elif(percentage >= 70 and percentage < 80):
+    print("Grade: B")
+elif(percentage >= 60 and percentage < 70):
+    print("Grade: C")
+elif(percentage >= 50 and percentage < 60):
+    print("Grade: D")
+else:
+    print("Fail")
+
+
 
 # calculator
+
 val1 = int(input('Enter First Value: '))
 operator = (input('Enter Operator: '))
 val2 = int(input('Enter Second Value: '))
@@ -81,3 +110,18 @@ elif operator == '/':
 else:
     print('Please Enter Valid Operator')
 
+
+
+#duplicate values from list
+
+arr = [ 3, 54, 59, 3, 89, 30, 12, 6, 54, 33, 30, 10]
+dupItems = []
+uniqItems = {}
+for i in arr:
+   if i not in uniqItems:
+        uniqItems[i] = 1
+   else:
+        if uniqItems[i] == 1:
+            dupItems.append(i)
+        uniqItems[i] += 1
+print(dupItems)
