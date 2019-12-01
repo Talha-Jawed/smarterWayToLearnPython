@@ -1,3 +1,5 @@
+# chapter 20 - 40 & assignment no: 4
+
 # Touple immutable list/array
 newToupleArray = (11, 22, 33, 44, 55)
 print(newToupleArray)
@@ -74,3 +76,18 @@ objectOfObjects = {
     },
 }
 print(objectOfObjects)
+
+# assignment no: 4
+
+person = {'firstName': 'Talha','lastName': 'Javed','age': 22}
+print(person)
+person ["qualification"]="bachlors"
+print(person)
+del person['age']
+print(person)
+
+
+def favorite_book(i):
+    print("Hii " + i)
+
+favorite_book(str(input("Enter Your Name:")))
