@@ -1,6 +1,8 @@
 # Chapter 12-19 & assignment 2
 
+
 #  And and or operator
+
 if 4 > 2 and 5 > 4:
     print("and contdition true")
 
@@ -15,6 +17,7 @@ if 9 < 7 or "hello" == "world":
 
 
 # if statment nested
+
 if 1 == 1:
     if 2 != 2:
         print("nested if")
@@ -37,12 +40,14 @@ multiple line comment
 
 
 # List in python aka array
+
 numbers = [6, 5, 4, 3, 2, 1]
 print(numbers)
 print(numbers[4])
 print(numbers.__len__())
 
-# # using append push in js
+
+# using append push in js
 
 numbers.append(45)
 print(numbers)
@@ -90,6 +95,7 @@ elif(percentage >= 50 and percentage < 60):
     print("Grade: D")
 else:
     print("Fail")
+
 
 
 
